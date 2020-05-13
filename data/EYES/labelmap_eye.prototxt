@@ -1,0 +1,20 @@
+item {
+  name: "none_of_the_above"
+  label: 0
+  display_name: "background"
+}
+item {
+  name: "eye"
+  label: 1
+  display_name: "eye"
+}
+item {
+  name: "closed"
+  label: 2
+  display_name: "closed"
+}
+item {
+  name: "eyeball"
+  label: 3
+  display_name: "eyeball"
+}

@@ -1,0 +1,1 @@
+cmd='env;CFLAGS=-fPIC;CXXFLAGS=-fPIC;/workspace/caffe-jacinto/external/glog-prefix/src/glog/configure;--prefix=/workspace/caffe-jacinto/external/glog-install;--enable-shared=no;--enable-static=yes;--with-gflags=/..'

@@ -1,0 +1,550 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /workspace/caffe-jacinto/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b0b05/fast 
+/usr/bin/make -f CMakeFiles/cmTC_b0b05.dir/build.make CMakeFiles/cmTC_b0b05.dir/build
+make[1]: Entering directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0b05.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b0b05.dir/CheckSymbolExists.c.o   -c /workspace/caffe-jacinto/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b0b05
+/root/anaconda3/envs/caffe/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0b05.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_b0b05.dir/CheckSymbolExists.c.o  -o cmTC_b0b05 
+CMakeFiles/cmTC_b0b05.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b0b05.dir/build.make:86: recipe for target 'cmTC_b0b05' failed
+make[1]: *** [cmTC_b0b05] Error 1
+make[1]: Leaving directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_b0b05/fast' failed
+make: *** [cmTC_b0b05/fast] Error 2
+
+File /workspace/caffe-jacinto/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /workspace/caffe-jacinto/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_04049/fast 
+/usr/bin/make -f CMakeFiles/cmTC_04049.dir/build.make CMakeFiles/cmTC_04049.dir/build
+make[1]: Entering directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04049.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_04049.dir/CheckFunctionExists.c.o   -c /root/anaconda3/envs/caffe/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_04049
+/root/anaconda3/envs/caffe/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04049.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_04049.dir/CheckFunctionExists.c.o  -o cmTC_04049 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_04049.dir/build.make:86: recipe for target 'cmTC_04049' failed
+make[1]: *** [cmTC_04049] Error 1
+make[1]: Leaving directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_04049/fast' failed
+make: *** [cmTC_04049/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /workspace/caffe-jacinto/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4c2dd/fast 
+/usr/bin/make -f CMakeFiles/cmTC_4c2dd.dir/build.make CMakeFiles/cmTC_4c2dd.dir/build
+make[1]: Entering directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c2dd.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4c2dd.dir/CheckSymbolExists.c.o   -c /workspace/caffe-jacinto/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4c2dd
+/root/anaconda3/envs/caffe/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c2dd.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4c2dd.dir/CheckSymbolExists.c.o  -o cmTC_4c2dd 
+CMakeFiles/cmTC_4c2dd.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4c2dd.dir/build.make:86: recipe for target 'cmTC_4c2dd' failed
+make[1]: *** [cmTC_4c2dd] Error 1
+make[1]: Leaving directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_4c2dd/fast' failed
+make: *** [cmTC_4c2dd/fast] Error 2
+
+File /workspace/caffe-jacinto/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /workspace/caffe-jacinto/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_25453/fast 
+/usr/bin/make -f CMakeFiles/cmTC_25453.dir/build.make CMakeFiles/cmTC_25453.dir/build
+make[1]: Entering directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25453.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_25453.dir/CheckFunctionExists.c.o   -c /root/anaconda3/envs/caffe/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_25453
+/root/anaconda3/envs/caffe/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25453.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_25453.dir/CheckFunctionExists.c.o  -o cmTC_25453 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_25453.dir/build.make:86: recipe for target 'cmTC_25453' failed
+make[1]: *** [cmTC_25453] Error 1
+make[1]: Leaving directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_25453/fast' failed
+make: *** [cmTC_25453/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /workspace/caffe-jacinto/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3042b/fast 
+/usr/bin/make -f CMakeFiles/cmTC_3042b.dir/build.make CMakeFiles/cmTC_3042b.dir/build
+make[1]: Entering directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3042b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3042b.dir/CheckSymbolExists.c.o   -c /workspace/caffe-jacinto/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3042b
+/root/anaconda3/envs/caffe/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3042b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3042b.dir/CheckSymbolExists.c.o  -o cmTC_3042b 
+CMakeFiles/cmTC_3042b.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3042b.dir/build.make:86: recipe for target 'cmTC_3042b' failed
+make[1]: *** [cmTC_3042b] Error 1
+make[1]: Leaving directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_3042b/fast' failed
+make: *** [cmTC_3042b/fast] Error 2
+
+File /workspace/caffe-jacinto/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /workspace/caffe-jacinto/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dae8c/fast 
+/usr/bin/make -f CMakeFiles/cmTC_dae8c.dir/build.make CMakeFiles/cmTC_dae8c.dir/build
+make[1]: Entering directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dae8c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_dae8c.dir/CheckFunctionExists.c.o   -c /root/anaconda3/envs/caffe/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dae8c
+/root/anaconda3/envs/caffe/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dae8c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_dae8c.dir/CheckFunctionExists.c.o  -o cmTC_dae8c -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_dae8c.dir/build.make:86: recipe for target 'cmTC_dae8c' failed
+make[1]: *** [cmTC_dae8c] Error 1
+make[1]: Leaving directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_dae8c/fast' failed
+make: *** [cmTC_dae8c/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /workspace/caffe-jacinto/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b988a/fast 
+/usr/bin/make -f CMakeFiles/cmTC_b988a.dir/build.make CMakeFiles/cmTC_b988a.dir/build
+make[1]: Entering directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b988a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b988a.dir/CheckSymbolExists.c.o   -c /workspace/caffe-jacinto/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b988a
+/root/anaconda3/envs/caffe/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b988a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_b988a.dir/CheckSymbolExists.c.o  -o cmTC_b988a 
+CMakeFiles/cmTC_b988a.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b988a.dir/build.make:86: recipe for target 'cmTC_b988a' failed
+make[1]: *** [cmTC_b988a] Error 1
+make[1]: Leaving directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_b988a/fast' failed
+make: *** [cmTC_b988a/fast] Error 2
+
+File /workspace/caffe-jacinto/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /workspace/caffe-jacinto/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_02fe7/fast 
+/usr/bin/make -f CMakeFiles/cmTC_02fe7.dir/build.make CMakeFiles/cmTC_02fe7.dir/build
+make[1]: Entering directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02fe7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_02fe7.dir/CheckFunctionExists.c.o   -c /root/anaconda3/envs/caffe/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_02fe7
+/root/anaconda3/envs/caffe/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02fe7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_02fe7.dir/CheckFunctionExists.c.o  -o cmTC_02fe7 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_02fe7.dir/build.make:86: recipe for target 'cmTC_02fe7' failed
+make[1]: *** [cmTC_02fe7] Error 1
+make[1]: Leaving directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_02fe7/fast' failed
+make: *** [cmTC_02fe7/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /workspace/caffe-jacinto/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4d660/fast 
+/usr/bin/make -f CMakeFiles/cmTC_4d660.dir/build.make CMakeFiles/cmTC_4d660.dir/build
+make[1]: Entering directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d660.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4d660.dir/CheckSymbolExists.c.o   -c /workspace/caffe-jacinto/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4d660
+/root/anaconda3/envs/caffe/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d660.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4d660.dir/CheckSymbolExists.c.o  -o cmTC_4d660 
+CMakeFiles/cmTC_4d660.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4d660.dir/build.make:86: recipe for target 'cmTC_4d660' failed
+make[1]: *** [cmTC_4d660] Error 1
+make[1]: Leaving directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_4d660/fast' failed
+make: *** [cmTC_4d660/fast] Error 2
+
+File /workspace/caffe-jacinto/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /workspace/caffe-jacinto/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_437be/fast 
+/usr/bin/make -f CMakeFiles/cmTC_437be.dir/build.make CMakeFiles/cmTC_437be.dir/build
+make[1]: Entering directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_437be.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_437be.dir/CheckFunctionExists.c.o   -c /root/anaconda3/envs/caffe/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_437be
+/root/anaconda3/envs/caffe/bin/cmake -E cmake_link_script CMakeFiles/cmTC_437be.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_437be.dir/CheckFunctionExists.c.o  -o cmTC_437be -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_437be.dir/build.make:86: recipe for target 'cmTC_437be' failed
+make[1]: *** [cmTC_437be] Error 1
+make[1]: Leaving directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_437be/fast' failed
+make: *** [cmTC_437be/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /workspace/caffe-jacinto/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_007a1/fast 
+/usr/bin/make -f CMakeFiles/cmTC_007a1.dir/build.make CMakeFiles/cmTC_007a1.dir/build
+make[1]: Entering directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_007a1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_007a1.dir/CheckSymbolExists.c.o   -c /workspace/caffe-jacinto/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_007a1
+/root/anaconda3/envs/caffe/bin/cmake -E cmake_link_script CMakeFiles/cmTC_007a1.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_007a1.dir/CheckSymbolExists.c.o  -o cmTC_007a1 
+CMakeFiles/cmTC_007a1.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_007a1.dir/build.make:86: recipe for target 'cmTC_007a1' failed
+make[1]: *** [cmTC_007a1] Error 1
+make[1]: Leaving directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_007a1/fast' failed
+make: *** [cmTC_007a1/fast] Error 2
+
+File /workspace/caffe-jacinto/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /workspace/caffe-jacinto/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b8093/fast 
+/usr/bin/make -f CMakeFiles/cmTC_b8093.dir/build.make CMakeFiles/cmTC_b8093.dir/build
+make[1]: Entering directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8093.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b8093.dir/CheckFunctionExists.c.o   -c /root/anaconda3/envs/caffe/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b8093
+/root/anaconda3/envs/caffe/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8093.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b8093.dir/CheckFunctionExists.c.o  -o cmTC_b8093 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b8093.dir/build.make:86: recipe for target 'cmTC_b8093' failed
+make[1]: *** [cmTC_b8093] Error 1
+make[1]: Leaving directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_b8093/fast' failed
+make: *** [cmTC_b8093/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /workspace/caffe-jacinto/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ea878/fast 
+/usr/bin/make -f CMakeFiles/cmTC_ea878.dir/build.make CMakeFiles/cmTC_ea878.dir/build
+make[1]: Entering directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea878.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ea878.dir/CheckSymbolExists.c.o   -c /workspace/caffe-jacinto/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ea878
+/root/anaconda3/envs/caffe/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea878.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ea878.dir/CheckSymbolExists.c.o  -o cmTC_ea878 
+CMakeFiles/cmTC_ea878.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ea878.dir/build.make:86: recipe for target 'cmTC_ea878' failed
+make[1]: *** [cmTC_ea878] Error 1
+make[1]: Leaving directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_ea878/fast' failed
+make: *** [cmTC_ea878/fast] Error 2
+
+File /workspace/caffe-jacinto/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /workspace/caffe-jacinto/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4a101/fast 
+/usr/bin/make -f CMakeFiles/cmTC_4a101.dir/build.make CMakeFiles/cmTC_4a101.dir/build
+make[1]: Entering directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a101.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4a101.dir/CheckFunctionExists.c.o   -c /root/anaconda3/envs/caffe/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4a101
+/root/anaconda3/envs/caffe/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a101.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_4a101.dir/CheckFunctionExists.c.o  -o cmTC_4a101 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4a101.dir/build.make:86: recipe for target 'cmTC_4a101' failed
+make[1]: *** [cmTC_4a101] Error 1
+make[1]: Leaving directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_4a101/fast' failed
+make: *** [cmTC_4a101/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /workspace/caffe-jacinto/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e520f/fast 
+/usr/bin/make -f CMakeFiles/cmTC_e520f.dir/build.make CMakeFiles/cmTC_e520f.dir/build
+make[1]: Entering directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e520f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e520f.dir/CheckSymbolExists.c.o   -c /workspace/caffe-jacinto/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e520f
+/root/anaconda3/envs/caffe/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e520f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_e520f.dir/CheckSymbolExists.c.o  -o cmTC_e520f 
+CMakeFiles/cmTC_e520f.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e520f.dir/build.make:86: recipe for target 'cmTC_e520f' failed
+make[1]: *** [cmTC_e520f] Error 1
+make[1]: Leaving directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_e520f/fast' failed
+make: *** [cmTC_e520f/fast] Error 2
+
+File /workspace/caffe-jacinto/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /workspace/caffe-jacinto/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_82e98/fast 
+/usr/bin/make -f CMakeFiles/cmTC_82e98.dir/build.make CMakeFiles/cmTC_82e98.dir/build
+make[1]: Entering directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82e98.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_82e98.dir/CheckFunctionExists.c.o   -c /root/anaconda3/envs/caffe/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_82e98
+/root/anaconda3/envs/caffe/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82e98.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_82e98.dir/CheckFunctionExists.c.o  -o cmTC_82e98 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_82e98.dir/build.make:86: recipe for target 'cmTC_82e98' failed
+make[1]: *** [cmTC_82e98] Error 1
+make[1]: Leaving directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_82e98/fast' failed
+make: *** [cmTC_82e98/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /workspace/caffe-jacinto/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fcad1/fast 
+/usr/bin/make -f CMakeFiles/cmTC_fcad1.dir/build.make CMakeFiles/cmTC_fcad1.dir/build
+make[1]: Entering directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fcad1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fcad1.dir/CheckSymbolExists.c.o   -c /workspace/caffe-jacinto/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fcad1
+/root/anaconda3/envs/caffe/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcad1.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_fcad1.dir/CheckSymbolExists.c.o  -o cmTC_fcad1 
+CMakeFiles/cmTC_fcad1.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fcad1.dir/build.make:86: recipe for target 'cmTC_fcad1' failed
+make[1]: *** [cmTC_fcad1] Error 1
+make[1]: Leaving directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_fcad1/fast' failed
+make: *** [cmTC_fcad1/fast] Error 2
+
+File /workspace/caffe-jacinto/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /workspace/caffe-jacinto/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_36eaa/fast 
+/usr/bin/make -f CMakeFiles/cmTC_36eaa.dir/build.make CMakeFiles/cmTC_36eaa.dir/build
+make[1]: Entering directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36eaa.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_36eaa.dir/CheckFunctionExists.c.o   -c /root/anaconda3/envs/caffe/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_36eaa
+/root/anaconda3/envs/caffe/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36eaa.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_36eaa.dir/CheckFunctionExists.c.o  -o cmTC_36eaa -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_36eaa.dir/build.make:86: recipe for target 'cmTC_36eaa' failed
+make[1]: *** [cmTC_36eaa] Error 1
+make[1]: Leaving directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_36eaa/fast' failed
+make: *** [cmTC_36eaa/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /workspace/caffe-jacinto/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_51ead/fast 
+/usr/bin/make -f CMakeFiles/cmTC_51ead.dir/build.make CMakeFiles/cmTC_51ead.dir/build
+make[1]: Entering directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51ead.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_51ead.dir/CheckSymbolExists.c.o   -c /workspace/caffe-jacinto/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_51ead
+/root/anaconda3/envs/caffe/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51ead.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_51ead.dir/CheckSymbolExists.c.o  -o cmTC_51ead 
+CMakeFiles/cmTC_51ead.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_51ead.dir/build.make:86: recipe for target 'cmTC_51ead' failed
+make[1]: *** [cmTC_51ead] Error 1
+make[1]: Leaving directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_51ead/fast' failed
+make: *** [cmTC_51ead/fast] Error 2
+
+File /workspace/caffe-jacinto/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /workspace/caffe-jacinto/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4c67f/fast 
+/usr/bin/make -f CMakeFiles/cmTC_4c67f.dir/build.make CMakeFiles/cmTC_4c67f.dir/build
+make[1]: Entering directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c67f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4c67f.dir/CheckFunctionExists.c.o   -c /root/anaconda3/envs/caffe/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4c67f
+/root/anaconda3/envs/caffe/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c67f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_4c67f.dir/CheckFunctionExists.c.o  -o cmTC_4c67f -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4c67f.dir/build.make:86: recipe for target 'cmTC_4c67f' failed
+make[1]: *** [cmTC_4c67f] Error 1
+make[1]: Leaving directory '/workspace/caffe-jacinto/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_4c67f/fast' failed
+make: *** [cmTC_4c67f/fast] Error 2
+
+
